@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Gallery</title>
+    <link href="hover.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="image">
+    Hover over an image below to display here.
+</div>
+<!-- Passing alt text and image source for each image -->
+<img alt="Batter is ready" class="preview1"
+     onmouseover="upDate(this.src,this.alt)"
+     onmouseout="unDo()"
+     src="https://cdn.sallysbakingaddiction.com/wp-content/uploads/2017/06/moist-chocolate-cupcakes-7.jpg">
+
+<img alt="Perfect Baking" class="preview2"
+     onmouseover="upDate(this.src,this.alt)"
+     onmouseout="unDo()"
+     src="https://cdn.sallysbakingaddiction.com/wp-content/uploads/2017/06/moist-chocolate-cupcakes-6.jpg">
+
+<img alt="Yummy yummy cup cake" class="preview3"
+     onmouseover="upDate(this.src,this.alt)"
+     onmouseout="unDo()"
+     src="https://cdn.sallysbakingaddiction.com/wp-content/uploads/2017/06/moist-chocolate-cupcakes-5.jpg">
+<script src="hover.js"></script>
+</body>
+</html>
