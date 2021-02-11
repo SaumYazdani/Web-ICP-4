@@ -1,1 +1,1 @@
-# Web-ICP-4
+For ICP 4 we were asked to us JS to change the background to an image we are scrolling over and disply the alt text associated with the image. We were also asked to use github's apit to retrieve information about a user and display it to the screen. For both these projeccts, I used HTML, JS, CSS, and JQuery.
